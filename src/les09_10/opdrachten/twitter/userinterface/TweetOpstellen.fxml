@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="250.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="les09_10.opdrachten.twitter.userinterface.TweetOpstellenController">
+   <children>
+      <TextArea fx:id="tweetTextArea" layoutX="53.0" layoutY="49.0" prefHeight="121.0" prefWidth="396.0" />
+      <Button layoutX="401.0" layoutY="192.0" mnemonicParsing="false" onAction="#handleButtonTweet" text="Tweet" />
+      <Button layoutX="310.0" layoutY="192.0" mnemonicParsing="false" onAction="#handleButtonAnnuleren" prefHeight="26.0" prefWidth="77.0" text="Annuleren" />
+      <Label fx:id="tweetMeldingLabel" layoutX="53.0" layoutY="19.0" prefHeight="18.0" prefWidth="209.0" text="Voer een bericht in:" />
+   </children>
+   <effect>
+      <InnerShadow />
+   </effect>
+</AnchorPane>
